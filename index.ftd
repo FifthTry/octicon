@@ -1,0 +1,22 @@
+-- import: fpm
+
+-- ftd.font-size octicon-fs:
+line-height: 32
+size: 32
+letter-spacing: 0
+
+-- ftd.type octicon:
+font: $assets.fonts.Octicon
+desktop: $octicon-fs
+mobile: $octicon-fs
+xl: $octicon-fs
+weight: 400
+
+-- alert:
+
+-- string alert-string: &#xf02d;
+
+-- ftd.text alert: &#xf02d;
+ftd.color color: $fpm.color.main.text
+role: $octicon
+color: $color
