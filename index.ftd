@@ -11,7 +11,7 @@ if: $ftd.device == mobile
 
 
 -- ftd.font-size octicon-fs:
-line-height: 16
+line-height: 24
 size: 16
 letter-spacing: 0
 
