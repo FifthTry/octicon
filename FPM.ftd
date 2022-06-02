@@ -3,7 +3,6 @@
 -- fpm.package: fifthtry.github.io/octicon
 zip: github.com/fifthtry/octicon/archive/refs/heads/main.zip
 
--- fpm.dependency: fifthtry.github.io/inter
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
 -- fpm.dependency: fifthtry.github.io/typography as tf
 
