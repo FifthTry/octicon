@@ -29,13 +29,13 @@ padding-horizontal if $is-mobile: 20
 background-color: $fpm.color.main.background.base
 
 -- pd.package: Octicons
-name: fifthtry.github.io/octicons
+name: fifthtry.github.io/octicon
 
 This component can be used as a Octiicons component on your page.
 
 
 -- pd.component: Octicons
-name: fifthtry.github.io/octicons
+name: fifthtry.github.io/octicon
 
 This is the main slideshow.
 
