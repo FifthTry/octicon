@@ -1,7 +1,7 @@
 -- import: fpm
 -- import: fifthtry.github.io/typography as tf
 -- import: fifthtry.github.io/package-doc/doc as pd
-
+-- import: fifthtry.github.io/package-doc/code-block as cb
 
 -- boolean is-mobile: false
 
@@ -37,7 +37,20 @@ This component can be used as a Octiicons component on your page.
 -- pd.component: Octicons
 name: fifthtry.github.io/octicon
 
-This is the main slideshow.
+This is the main Octicons.
+
+How to use?
+
+Add below lines into `FPM.ftd` file:
+
+
+-- cb.code:
+lang: ftd
+
+\-- fpm.dependency: fifthtry.github.io/octicon as octicon
+
+\-- fpm.auto-import: octicon
+
 
 -- ftd.row:
 spacing: 16
