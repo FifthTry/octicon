@@ -2,6 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/octicon
 zip: github.com/fifthtry/octicon/archive/refs/heads/main.zip
+base: https://raw.githubusercontent.com/fifthtry/octicon/main
 
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
 -- fpm.dependency: fifthtry.github.io/typography as tf
