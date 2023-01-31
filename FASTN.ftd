@@ -1,0 +1,18 @@
+-- import: fastn
+
+-- fastn.package: fifthtry.github.io/octicon
+zip: github.com/fifthtry/octicon/archive/refs/heads/main.zip
+download-base-url: https://raw.githubusercontent.com/fifthtry/octicon/main
+
+-- fastn.dependency: fifthtry.github.io/package-doc as pd
+-- fastn.dependency: fifthtry.github.io/typography as tf
+
+
+
+-- fastn.font: Octicon
+display: swap
+style: normal
+weight: normal
+woff: -/fifthtry.github.io/octicon/static/octicons.woff
+
+-- fastn.auto-import: fifthtry.github.io/octicon/assets
