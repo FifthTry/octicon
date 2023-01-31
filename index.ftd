@@ -1,4 +1,4 @@
--- import: fpm
+-- import: fastn
 -- import: fifthtry.github.io/typography as tf
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/code-block as cb
@@ -26,7 +26,7 @@ weight: 400
 width: fill
 padding-horizontal: 50
 padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
+background-color: $fastn.color.main.background.base
 
 -- pd.package: Octicons
 name: fifthtry.github.io/octicon
@@ -41,15 +41,15 @@ This is the main Octicons.
 
 How to use?
 
-Add below lines into `FPM.ftd` file:
+Add below lines into `FASTN.ftd` file:
 
 
 -- cb.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/octicon as octicon
+\-- fastn.dependency: fifthtry.github.io/octicon as octicon
 
-\-- fpm.auto-import: octicon
+\-- fastn.auto-import: octicon
 
 
 -- ftd.row:
@@ -58,7 +58,7 @@ margin-bottom: 24
 
 --- ftd.text: alert::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- alert:
 
@@ -76,7 +76,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-down::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-down:
 
@@ -94,7 +94,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-left::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-left:
 
@@ -112,7 +112,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-right::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-right:
 
@@ -130,7 +130,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-small-down::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-small-down:
 
@@ -148,7 +148,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-small-left::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-small-left:
 
@@ -166,7 +166,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-small-right::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-small-right:
 
@@ -184,7 +184,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-small-up::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-small-up:
 
@@ -202,7 +202,7 @@ margin-bottom: 24
 
 --- ftd.text: arrow-up::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- arrow-up:
 
@@ -220,7 +220,7 @@ margin-bottom: 24
 
 --- ftd.text: beaker::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- beaker:
 
@@ -238,7 +238,7 @@ margin-bottom: 24
 
 --- ftd.text: bell::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- bell:
 
@@ -256,7 +256,7 @@ margin-bottom: 24
 
 --- ftd.text: bold::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- bold:
 
@@ -274,7 +274,7 @@ margin-bottom: 24
 
 --- ftd.text: book::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- book:
 
@@ -292,7 +292,7 @@ margin-bottom: 24
 
 --- ftd.text: bookmark::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- bookmark:
 
@@ -310,7 +310,7 @@ margin-bottom: 24
 
 --- ftd.text: briefcase::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- briefcase:
 
@@ -328,7 +328,7 @@ margin-bottom: 24
 
 --- ftd.text: broadcast::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- broadcast:
 
@@ -346,7 +346,7 @@ margin-bottom: 24
 
 --- ftd.text: browser::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- browser:
 
@@ -364,7 +364,7 @@ margin-bottom: 24
 
 --- ftd.text: bug::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- bug:
 
@@ -382,7 +382,7 @@ margin-bottom: 24
 
 --- ftd.text: calendar::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- calendar:
 
@@ -400,7 +400,7 @@ margin-bottom: 24
 
 --- ftd.text: check::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- check:
 
@@ -418,7 +418,7 @@ margin-bottom: 24
 
 --- ftd.text: checklist::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- checklist:
 
@@ -436,7 +436,7 @@ margin-bottom: 24
 
 --- ftd.text: chevron-down::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- chevron-down:
 
@@ -454,7 +454,7 @@ margin-bottom: 24
 
 --- ftd.text: chevron-left::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- chevron-left:
 
@@ -472,7 +472,7 @@ margin-bottom: 24
 
 --- ftd.text: chevron-right::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- chevron-right:
 
@@ -490,7 +490,7 @@ margin-bottom: 24
 
 --- ftd.text: chevron-up::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- chevron-up:
 
@@ -508,7 +508,7 @@ margin-bottom: 24
 
 --- ftd.text: circle-slash::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- circle-slash:
 
@@ -526,7 +526,7 @@ margin-bottom: 24
 
 --- ftd.text: circuit-board::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- circuit-board:
 
@@ -544,7 +544,7 @@ margin-bottom: 24
 
 --- ftd.text: clippy::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- clippy:
 
@@ -562,7 +562,7 @@ margin-bottom: 24
 
 --- ftd.text: clock::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- clock:
 
@@ -580,7 +580,7 @@ margin-bottom: 24
 
 --- ftd.text: cloud-download::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- cloud-download:
 
@@ -598,7 +598,7 @@ margin-bottom: 24
 
 --- ftd.text: cloud-upload::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- cloud-upload:
 
@@ -616,7 +616,7 @@ margin-bottom: 24
 
 --- ftd.text: code::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- code:
 
@@ -634,7 +634,7 @@ margin-bottom: 24
 
 --- ftd.text: color-mode::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- color-mode:
 
@@ -652,7 +652,7 @@ margin-bottom: 24
 
 --- ftd.text: comment::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- comment:
 
@@ -670,7 +670,7 @@ margin-bottom: 24
 
 --- ftd.text: comment-discussion::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- comment-discussion:
 
@@ -688,7 +688,7 @@ margin-bottom: 24
 
 --- ftd.text: credit-card::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- credit-card:
 
@@ -706,7 +706,7 @@ margin-bottom: 24
 
 --- ftd.text: dash::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- dash:
 
@@ -724,7 +724,7 @@ margin-bottom: 24
 
 --- ftd.text: dashboard::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- dashboard:
 
@@ -742,7 +742,7 @@ margin-bottom: 24
 
 --- ftd.text: database::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- database:
 
@@ -760,7 +760,7 @@ margin-bottom: 24
 
 --- ftd.text: desktop-download::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- desktop-download:
 
@@ -778,7 +778,7 @@ margin-bottom: 24
 
 --- ftd.text: device-camera::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- device-camera:
 
@@ -796,7 +796,7 @@ margin-bottom: 24
 
 --- ftd.text: device-camera-video::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- device-camera-video:
 
@@ -814,7 +814,7 @@ margin-bottom: 24
 
 --- ftd.text: device-desktop::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- device-desktop:
 
@@ -832,7 +832,7 @@ margin-bottom: 24
 
 --- ftd.text: device-mobile::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- device-mobile:
 
@@ -850,7 +850,7 @@ margin-bottom: 24
 
 --- ftd.text: diff::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff:
 
@@ -868,7 +868,7 @@ margin-bottom: 24
 
 --- ftd.text: diff-added::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff-added:
 
@@ -886,7 +886,7 @@ margin-bottom: 24
 
 --- ftd.text: diff-ignored::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff-ignored:
 
@@ -904,7 +904,7 @@ margin-bottom: 24
 
 --- ftd.text: diff-modified::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff-modified:
 
@@ -922,7 +922,7 @@ margin-bottom: 24
 
 --- ftd.text: diff-removed::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff-removed:
 
@@ -940,7 +940,7 @@ margin-bottom: 24
 
 --- ftd.text: diff-renamed::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- diff-renamed:
 
@@ -958,7 +958,7 @@ margin-bottom: 24
 
 --- ftd.text: ellipsis::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- ellipsis:
 
@@ -976,7 +976,7 @@ margin-bottom: 24
 
 --- ftd.text: eye::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- eye:
 
@@ -994,7 +994,7 @@ margin-bottom: 24
 
 --- ftd.text: file-binary::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-binary:
 
@@ -1012,7 +1012,7 @@ margin-bottom: 24
 
 --- ftd.text: file-code::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-code:
 
@@ -1030,7 +1030,7 @@ margin-bottom: 24
 
 --- ftd.text: file-directory::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-directory:
 
@@ -1048,7 +1048,7 @@ margin-bottom: 24
 
 --- ftd.text: file-media::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-media:
 
@@ -1066,7 +1066,7 @@ margin-bottom: 24
 
 --- ftd.text: file-pdf::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-pdf:
 
@@ -1084,7 +1084,7 @@ margin-bottom: 24
 
 --- ftd.text: file-submodule::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-submodule:
 
@@ -1102,7 +1102,7 @@ margin-bottom: 24
 
 --- ftd.text: file-symlink-directory::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-symlink-directory:
 
@@ -1120,7 +1120,7 @@ margin-bottom: 24
 
 --- ftd.text: file-symlink-file::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-symlink-file:
 
@@ -1138,7 +1138,7 @@ margin-bottom: 24
 
 --- ftd.text: file-text::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-text:
 
@@ -1156,7 +1156,7 @@ margin-bottom: 24
 
 --- ftd.text: file-zip::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- file-zip:
 
@@ -1174,7 +1174,7 @@ margin-bottom: 24
 
 --- ftd.text: flame::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- flame:
 
@@ -1192,7 +1192,7 @@ margin-bottom: 24
 
 --- ftd.text: fold::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- fold:
 
@@ -1210,7 +1210,7 @@ margin-bottom: 24
 
 --- ftd.text: gear::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- gear:
 
@@ -1228,7 +1228,7 @@ margin-bottom: 24
 
 --- ftd.text: gift::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- gift:
 
@@ -1246,7 +1246,7 @@ margin-bottom: 24
 
 --- ftd.text: gist::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- gist:
 
@@ -1264,7 +1264,7 @@ margin-bottom: 24
 
 --- ftd.text: gist-secret::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- gist-secret:
 
@@ -1282,7 +1282,7 @@ margin-bottom: 24
 
 --- ftd.text: git-branch::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- git-branch:
 
@@ -1300,7 +1300,7 @@ margin-bottom: 24
 
 --- ftd.text: git-commit::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- git-commit:
 
@@ -1318,7 +1318,7 @@ margin-bottom: 24
 
 --- ftd.text: git-compare::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- git-compare:
 
@@ -1336,7 +1336,7 @@ margin-bottom: 24
 
 --- ftd.text: git-merge::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- git-merge:
 
@@ -1354,7 +1354,7 @@ margin-bottom: 24
 
 --- ftd.text: git-pull-request::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- git-pull-request:
 
@@ -1372,7 +1372,7 @@ margin-bottom: 24
 
 --- ftd.text: globe::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- globe:
 
@@ -1390,7 +1390,7 @@ margin-bottom: 24
 
 --- ftd.text: graph::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- graph:
 
@@ -1408,7 +1408,7 @@ margin-bottom: 24
 
 --- ftd.text: history::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- history:
 
@@ -1426,7 +1426,7 @@ margin-bottom: 24
 
 --- ftd.text: home::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- home:
 
@@ -1444,7 +1444,7 @@ margin-bottom: 24
 
 --- ftd.text: horizontal-rule::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- horizontal-rule:
 
@@ -1462,7 +1462,7 @@ margin-bottom: 24
 
 --- ftd.text: hubot::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- hubot:
 
@@ -1480,7 +1480,7 @@ margin-bottom: 24
 
 --- ftd.text: inbox::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- inbox:
 
@@ -1498,7 +1498,7 @@ margin-bottom: 24
 
 --- ftd.text: info::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- info:
 
@@ -1516,7 +1516,7 @@ margin-bottom: 24
 
 --- ftd.text: issue-closed::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- issue-closed:
 
@@ -1534,7 +1534,7 @@ margin-bottom: 24
 
 --- ftd.text: issue-opened::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- issue-opened:
 
@@ -1552,7 +1552,7 @@ margin-bottom: 24
 
 --- ftd.text: issue-reopened::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- issue-reopened:
 
@@ -1570,7 +1570,7 @@ margin-bottom: 24
 
 --- ftd.text: italic::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- italic:
 
@@ -1588,7 +1588,7 @@ margin-bottom: 24
 
 --- ftd.text: jersey::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- jersey:
 
@@ -1606,7 +1606,7 @@ margin-bottom: 24
 
 --- ftd.text: key::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- key:
 
@@ -1624,7 +1624,7 @@ margin-bottom: 24
 
 --- ftd.text: keyboard::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- keyboard:
 
@@ -1642,7 +1642,7 @@ margin-bottom: 24
 
 --- ftd.text: law::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- law:
 
@@ -1660,7 +1660,7 @@ margin-bottom: 24
 
 --- ftd.text: light-bulb::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- light-bulb:
 
@@ -1678,7 +1678,7 @@ margin-bottom: 24
 
 --- ftd.text: link::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- link:
 
@@ -1696,7 +1696,7 @@ margin-bottom: 24
 
 --- ftd.text: link-external::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- link-external:
 
@@ -1714,7 +1714,7 @@ margin-bottom: 24
 
 --- ftd.text: list-ordered::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- list-ordered:
 
@@ -1732,7 +1732,7 @@ margin-bottom: 24
 
 --- ftd.text: list-unordered::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- list-unordered:
 
@@ -1750,7 +1750,7 @@ margin-bottom: 24
 
 --- ftd.text: location::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- location:
 
@@ -1768,7 +1768,7 @@ margin-bottom: 24
 
 --- ftd.text: lock::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- lock:
 
@@ -1786,7 +1786,7 @@ margin-bottom: 24
 
 --- ftd.text: logo-gist::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- logo-gist:
 
@@ -1804,7 +1804,7 @@ margin-bottom: 24
 
 --- ftd.text: logo-github::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- logo-github:
 
@@ -1822,7 +1822,7 @@ margin-bottom: 24
 
 --- ftd.text: mail::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mail:
 
@@ -1840,7 +1840,7 @@ margin-bottom: 24
 
 --- ftd.text: mail-read::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mail-read:
 
@@ -1858,7 +1858,7 @@ margin-bottom: 24
 
 --- ftd.text: mail-reply::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mail-reply:
 
@@ -1876,7 +1876,7 @@ margin-bottom: 24
 
 --- ftd.text: mark-github::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mark-github:
 
@@ -1894,7 +1894,7 @@ margin-bottom: 24
 
 --- ftd.text: markdown::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- markdown:
 
@@ -1912,7 +1912,7 @@ margin-bottom: 24
 
 --- ftd.text: megaphone::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- megaphone:
 
@@ -1930,7 +1930,7 @@ margin-bottom: 24
 
 --- ftd.text: mention::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mention:
 
@@ -1948,7 +1948,7 @@ margin-bottom: 24
 
 --- ftd.text: milestone::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- milestone:
 
@@ -1966,7 +1966,7 @@ margin-bottom: 24
 
 --- ftd.text: mirror::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mirror:
 
@@ -1984,7 +1984,7 @@ margin-bottom: 24
 
 --- ftd.text: mortar-board::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mortar-board:
 
@@ -2002,7 +2002,7 @@ margin-bottom: 24
 
 --- ftd.text: mute::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- mute:
 
@@ -2020,7 +2020,7 @@ margin-bottom: 24
 
 --- ftd.text: no-newline::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- no-newline:
 
@@ -2038,7 +2038,7 @@ margin-bottom: 24
 
 --- ftd.text: octoface::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- octoface:
 
@@ -2056,7 +2056,7 @@ margin-bottom: 24
 
 --- ftd.text: organization::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- organization:
 
@@ -2074,7 +2074,7 @@ margin-bottom: 24
 
 --- ftd.text: package::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- package:
 
@@ -2092,7 +2092,7 @@ margin-bottom: 24
 
 --- ftd.text: paintcan::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- paintcan:
 
@@ -2110,7 +2110,7 @@ margin-bottom: 24
 
 --- ftd.text: pencil::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- pencil:
 
@@ -2128,7 +2128,7 @@ margin-bottom: 24
 
 --- ftd.text: person::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- person:
 
@@ -2146,7 +2146,7 @@ margin-bottom: 24
 
 --- ftd.text: pin::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- pin:
 
@@ -2164,7 +2164,7 @@ margin-bottom: 24
 
 --- ftd.text: plug::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- plug:
 
@@ -2182,7 +2182,7 @@ margin-bottom: 24
 
 --- ftd.text: plus::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- plus:
 
@@ -2200,7 +2200,7 @@ margin-bottom: 24
 
 --- ftd.text: primitive-dot::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- primitive-dot:
 
@@ -2218,7 +2218,7 @@ margin-bottom: 24
 
 --- ftd.text: primitive-square::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- primitive-square:
 
@@ -2236,7 +2236,7 @@ margin-bottom: 24
 
 --- ftd.text: pulse::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- pulse:
 
@@ -2254,7 +2254,7 @@ margin-bottom: 24
 
 --- ftd.text: question::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- question:
 
@@ -2272,7 +2272,7 @@ margin-bottom: 24
 
 --- ftd.text: quote::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- quote:
 
@@ -2290,7 +2290,7 @@ margin-bottom: 24
 
 --- ftd.text: radio-tower::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- radio-tower:
 
@@ -2308,7 +2308,7 @@ margin-bottom: 24
 
 --- ftd.text: repo::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo:
 
@@ -2326,7 +2326,7 @@ margin-bottom: 24
 
 --- ftd.text: repo-clone::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo-clone:
 
@@ -2344,7 +2344,7 @@ margin-bottom: 24
 
 --- ftd.text: repo-force-push::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo-force-push:
 
@@ -2362,7 +2362,7 @@ margin-bottom: 24
 
 --- ftd.text: repo-forked::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo-forked:
 
@@ -2380,7 +2380,7 @@ margin-bottom: 24
 
 --- ftd.text: repo-pull::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo-pull:
 
@@ -2398,7 +2398,7 @@ margin-bottom: 24
 
 --- ftd.text: repo-push::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- repo-push:
 
@@ -2416,7 +2416,7 @@ margin-bottom: 24
 
 --- ftd.text: rocket::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- rocket:
 
@@ -2434,7 +2434,7 @@ margin-bottom: 24
 
 --- ftd.text: rss::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- rss:
 
@@ -2452,7 +2452,7 @@ margin-bottom: 24
 
 --- ftd.text: ruby::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- ruby:
 
@@ -2470,7 +2470,7 @@ margin-bottom: 24
 
 --- ftd.text: search::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- search:
 
@@ -2488,7 +2488,7 @@ margin-bottom: 24
 
 --- ftd.text: server::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- server:
 
@@ -2506,7 +2506,7 @@ margin-bottom: 24
 
 --- ftd.text: settings::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- settings:
 
@@ -2524,7 +2524,7 @@ margin-bottom: 24
 
 --- ftd.text: shield::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- shield:
 
@@ -2542,7 +2542,7 @@ margin-bottom: 24
 
 --- ftd.text: sign-in::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- sign-in:
 
@@ -2560,7 +2560,7 @@ margin-bottom: 24
 
 --- ftd.text: sign-out::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- sign-out:
 
@@ -2578,7 +2578,7 @@ margin-bottom: 24
 
 --- ftd.text: squirrel::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- squirrel:
 
@@ -2596,7 +2596,7 @@ margin-bottom: 24
 
 --- ftd.text: star::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- star:
 
@@ -2614,7 +2614,7 @@ margin-bottom: 24
 
 --- ftd.text: stop::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- stop:
 
@@ -2632,7 +2632,7 @@ margin-bottom: 24
 
 --- ftd.text: sync::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- sync:
 
@@ -2650,7 +2650,7 @@ margin-bottom: 24
 
 --- ftd.text: tag::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- tag:
 
@@ -2668,7 +2668,7 @@ margin-bottom: 24
 
 --- ftd.text: tasklist::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- tasklist:
 
@@ -2686,7 +2686,7 @@ margin-bottom: 24
 
 --- ftd.text: telescope::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- telescope:
 
@@ -2704,7 +2704,7 @@ margin-bottom: 24
 
 --- ftd.text: terminal::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- terminal:
 
@@ -2722,7 +2722,7 @@ margin-bottom: 24
 
 --- ftd.text: text-size::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- text-size:
 
@@ -2740,7 +2740,7 @@ margin-bottom: 24
 
 --- ftd.text: three-bars::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- three-bars:
 
@@ -2758,7 +2758,7 @@ margin-bottom: 24
 
 --- ftd.text: thumbsdown::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- thumbsdown:
 
@@ -2776,7 +2776,7 @@ margin-bottom: 24
 
 --- ftd.text: thumbsup::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- thumbsup:
 
@@ -2794,7 +2794,7 @@ margin-bottom: 24
 
 --- ftd.text: tools::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- tools:
 
@@ -2812,7 +2812,7 @@ margin-bottom: 24
 
 --- ftd.text: trashcan::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- trashcan:
 
@@ -2830,7 +2830,7 @@ margin-bottom: 24
 
 --- ftd.text: triangle-down::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- triangle-down:
 
@@ -2848,7 +2848,7 @@ margin-bottom: 24
 
 --- ftd.text: triangle-left::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- triangle-left:
 
@@ -2866,7 +2866,7 @@ margin-bottom: 24
 
 --- ftd.text: triangle-right::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- triangle-right:
 
@@ -2884,7 +2884,7 @@ margin-bottom: 24
 
 --- ftd.text: triangle-up::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- triangle-up:
 
@@ -2902,7 +2902,7 @@ margin-bottom: 24
 
 --- ftd.text: unfold::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- unfold:
 
@@ -2920,7 +2920,7 @@ margin-bottom: 24
 
 --- ftd.text: unmute::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- unmute:
 
@@ -2938,7 +2938,7 @@ margin-bottom: 24
 
 --- ftd.text: versions::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- versions:
 
@@ -2956,7 +2956,7 @@ margin-bottom: 24
 
 --- ftd.text: watch::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- watch:
 
@@ -2974,7 +2974,7 @@ margin-bottom: 24
 
 --- ftd.text: x::
 width: 100
-role:  $fpm.type.copy-relaxed
+role:  $fastn.type.copy-relaxed
 
 --- x:
 
